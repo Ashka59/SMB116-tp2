@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TP2</string>
+    <string name="text_hint">tapez quelque chose</string>
+    <string name="phone_hint">phone</string>
+    <string name="login_hint">login</string>
+    <string name="internet_hint">internet</string>
+</resources>

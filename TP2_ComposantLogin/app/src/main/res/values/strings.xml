@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TP2_ComposantLogin</string>
+    <string name="password">password</string>
+    <string name="user_name">user name</string>
+    <string name="cancel">cancel</string>
+    <string name="login">login</string>
+    <string name="user_hint">user</string>
+    <string name="password_hint">**********</string>
+
+    <string name="permlab_callPhone">directly call phone numbers</string>
+    <string name="permdesc_callPhone">Allows the app to call
+        phone numbers without your intervention. Malicious apps may
+        cause unexpected calls on your phone bill. Note that this does not
+        allow the app to call emergency numbers.</string>
+</resources>
