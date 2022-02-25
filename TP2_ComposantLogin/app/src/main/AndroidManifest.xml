@@ -3,8 +3,8 @@
           package="cnam.smb116.tp2_composantlogin">
 
     <permission android:name="com.example.permission.CALL_LOGIN"
-                android:label="@string/permlab_callPhone"
-                android:description="@string/permdesc_callPhone"
+                android:label="@string/title_permission"
+                android:description="@string/description_permission"
                 android:permissionGroup="android.permission-group.CALL_LOG"
                 android:protectionLevel="dangerous"/>
 
@@ -15,11 +15,12 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+        <activity android:name=".MainActivity"
+                  android:permission="com.example.permission.CALL_LOGIN">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN"/>-->
+<!--                <category android:name="android.intent.category.LAUNCHER"/>-->
+<!--            </intent-filter>-->
             <intent-filter>
                 <action android:name="login.ACTION"/>
                 <category android:name="android.intent.category.DEFAULT"/>

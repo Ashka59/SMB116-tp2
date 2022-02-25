@@ -6,14 +6,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
-<!--    <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Hello World!"-->
-<!--            app:layout_constraintBottom_toBottomOf="parent"-->
-<!--            app:layout_constraintLeft_toLeftOf="parent"-->
-<!--            app:layout_constraintRight_toRightOf="parent"-->
-<!--            app:layout_constraintTop_toTopOf="parent"/>-->
 
     <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
                  android:layout_width="fill_parent"
@@ -30,7 +22,7 @@
 
             <EditText
                     android:text=""
-                    android:id="@+id/userNameTxt"
+                    android:id="@+id/txtUname"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content">
             </EditText>
@@ -46,7 +38,7 @@
 
             <EditText
                     android:text=""
-                    android:id="@+id/passwordTxt"
+                    android:id="@+id/txtPwd"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:password="true">
@@ -56,7 +48,7 @@
         <TableRow>
             <Button
                     android:text="Cancel"
-                    android:id="@+id/cancelBtn"
+                    android:id="@+id/btnCancel"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:onClick="onClickCancel">
@@ -64,7 +56,7 @@
 
             <Button
                     android:text="Login"
-                    android:id="@+id/loginBtn"
+                    android:id="@+id/btnLogin"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:onClick="onClickLogin">
